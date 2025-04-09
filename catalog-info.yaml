@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: core-cloud-docs-public
-  description: A repo containing core-cloud documentation
+  description: A repo containing core-cloud documentation.
   annotations:
     github.com/project-slug: UKHomeOffice/core-cloud-docs-public
     backstage.io/techdocs-ref: dir:.

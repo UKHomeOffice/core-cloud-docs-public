@@ -5,4 +5,4 @@ title: Getting Started
 
 Getting started.
 
-Welcome to core cloud. 
+Welcome to core cloud.
