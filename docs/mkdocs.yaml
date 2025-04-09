@@ -1,0 +1,11 @@
+---
+site_name: Core Cloud
+site_description: 'Core Cloud Documentation'
+
+nav:
+- Overview: index.md
+- About Core Cloud:
+  - Introduction to Core Cloud: about-core-cloud/intro.md
+
+plugins:
+  - techdocs-core
