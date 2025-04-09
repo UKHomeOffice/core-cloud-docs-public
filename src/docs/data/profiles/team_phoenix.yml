@@ -1,0 +1,33 @@
+team_members:
+- name: "Team Member 1"
+  picture: "assets/images/profiles/profile-5.png"
+  contact:
+    slack: 
+    email: 
+  skills: ["Skill 1", "Skill 2"]
+  hobbies: ["Hobby 1", "Hobby 2"]
+  fun_fact: "Fun fact!!!"
+- name: "Team Member 2"
+  picture: "assets/images/profiles/profile-2.png"
+  contact:
+    slack: 
+    email: 
+  skills: ["Skill 4", "Skill 5"]
+  hobbies: ["Hobby 3", "Hobby 4"]
+  fun_fact: "Fun fact!!!"
+- name: "Team Member 3"
+  picture: "assets/images/profiles/profile-3.png"
+  contact:
+    slack: 
+    email: 
+  skills: ["Kubernetes"]
+  hobbies: ["Hobby 3", "Hobby 4"]
+  fun_fact: "Fun fact!!!"
+- name: "Team Member 4"
+  picture: "assets/images/profiles/profile-4.png"
+  contact:
+    slack: 
+    email: 
+  skills: ["Skill 4", "Skill 5"]
+  hobbies: ["Hobby 3", "Hobby 4"]
+  fun_fact: "Fun fact!!!"

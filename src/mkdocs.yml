@@ -1,0 +1,106 @@
+---
+site_name: Core Cloud
+theme:
+  name: material
+  custom_dir: 'govuk_theme/'
+  logo: 
+  favicon: 
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+  palette:
+    - scheme: default
+      # primary: '#0b0c0c'
+      # accent: '#732282'
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - scheme: slate
+      # primary: '#f8f9fa'
+      # accent: '#732282'
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.path
+    - navigation.indexes
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - toc.integrate # uncomment to merge TOC with navigation bar
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+extra_css:
+  - assets/css/govuk-frontend-5.8.0.min.css
+
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - assets/js/tablesort.js
+
+plugins:
+  - material/search
+  - macros
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - toc:
+      toc_depth: 2
+
+extra:
+  copyright: Copyright &copy; Test
+  tags:
+    Draft: draft
+    Accepted: accepted
+    Proposed: proposed
+    Superseded: superseded
+    Deprecated: deprecated
+    Rejected: rejected
+
+
+nav:
+- Overview: index.md
+- About Core Cloud:
+  - Introduction to Core Cloud: about-core-cloud/intro.md
+  - Our Journey:
+    - LZA and the Foundry team: about-core-cloud/our-journey/lza-and-the-foundry-team.md
+    - Forming Galaxies: about-core-cloud/our-journey/forming-galaxies.md
+  - Core Cloud Catalogue: about-core-cloud/core-cloud-catalogue.md
+  - Meet the team:
+    - Delivery Team: about-core-cloud/meet-the-team/meet-delivery.md
+    - Architecture Team: about-core-cloud/meet-the-team/meet-architecture.md
+    - Team Andromeda: about-core-cloud/meet-the-team/meet-andromeda.md
+    - Team Polaris: about-core-cloud/meet-the-team/meet-polaris.md
+    - Team Cosmos: about-core-cloud/meet-the-team/meet-cosmos.md
+    - Team Phoenix: about-core-cloud/meet-the-team/meet-phoenix.md
+- Getting Started:
+  - User Onboarding: getting-started/user-onboarding.md
+  - Project Onboarding: getting-started/project-onboarding.md
+- How To:
+  - Github:
+    - Introduction to Github on Core Cloud: how-to/github/github-introduction.md
+    - Actions - Your first workflow: how-to/github/actions.md
+    - Terraform and Terragrunt: how-to/github/terraform-terragrunt.md
+    - Deploying to Kubernetes: how-to/github/github-introduction.md
+    - 3rd Party Actions - Slack, Trivy: how-to/github/github-introduction.md
+  - Kubernetes:
+    - Introduction to Kubernetes on Core Cloud: how-to/kubernetes/kubernetes-introduction.md
+    - Deployments and Statefulsets: how-to/kubernetes/deployment-statefulsets.md
+    - Ingress, Services and Certificate Management: how-to/kubernetes/ingress-services-certs.md
+    - Storage: how-to/kubernetes/storage.md
+    - Bringing it all together, Helm: how-to/kubernetes/helm.md
+  - Dynatrace:
+    - Introduction to Dynatrace on Core Cloud: how-to/github/github-introduction.md
+- Technical Architecture:
+  - Static Sites: technical-architecture

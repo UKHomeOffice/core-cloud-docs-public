@@ -1,0 +1,114 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #1d70b8;
+  --ifm-color-primary-dark: #1a65a6;
+  --ifm-color-primary-darker: #195f9c;
+  --ifm-color-primary-darkest: #144e81;
+  --ifm-color-primary-light: #207bca;
+  --ifm-color-primary-lighter: #2181d4;
+  --ifm-color-primary-lightest: #3690df;
+  --ifm-code-font-size: 95%;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+
+/*
+* TOP NAVIGATION BAR
+*/
+.md-header__title, .md-header__link {
+  color: #ffffff;
+}
+
+.md-header__title:hover, .md-header__link:hover {
+  color: #ffffff !important;
+}
+
+.md-header {
+  background-color: #0b0d0d;
+  border-bottom: 10px solid #1d70b8;
+}
+
+.react-toggle, .react-toggle-track-x {
+  padding-right: 10px;
+}
+
+.react-toggle-track .react-toggle-track-x {
+  width: unset;
+}
+
+/*
+* GENERAL TEXT STYLING
+*/
+a:hover {
+  text-decoration: underline !important;
+}
+
+a:active {
+  background-color: yellow !important;
+}
+
+.md-header__title:active, .md-header__link:active {
+  color: #000000 !important;
+}
+
+/*
+* LIGHT THEME
+*/
+[data-md-color-scheme="default"] a:hover {
+  color: #003078;
+}
+
+[data-md-color-scheme="default"] .menu__link, [data-md-color-scheme="default"] .table-of-contents__link {
+  color: #1d70b8;
+}
+
+[data-md-color-scheme="default"] .active {
+  border-left: 5px solid #003078;
+}
+
+/*
+* DARK THEME
+*/
+[data-md-color-scheme="slate"] {
+  --ifm-color-primary: #4e89e8;
+  --ifm-color-primary-dark: #5a91ea;
+}
+
+[data-md-color-scheme="slate"] .menu__link, [data-md-color-scheme="slate"] .table-of-contents__link {
+  color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] .active {
+  border-left: 5px solid #ffffff;
+  color: #3690df;
+}
+
+[data-md-color-scheme="slate"] a:hover {
+  color: #3690df;
+}
+
+/*
+* FOOTER
+*/
+[data-md-color-scheme="slate"] .md-footer {
+  background: #f3f2f1;
+  color: #0b0c0c;
+}
+
+[data-md-color-scheme="slate"] .md-footer {
+  background: #0b0d0d;
+  color: #ffffff;
+}
